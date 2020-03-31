@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:gravity="center"
+        android:text="Custom Image List View"
+        android:textColor="#2828B8"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/view_images"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_View"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp"
+        android:gravity="center"
+        android:text="Show Images"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
